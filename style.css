@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+    list-style: none;
+}
+
+body {
+    background: rgb(233, 232, 232);
+}
+
+h2 {
+    font-size: 22pt;
+    color: rgb(53, 141, 241);
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 141, 241);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    background: rgb(190, 190, 190);
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Estilo do Cabeçalho */
+    .header {
+        position: fixed;
+        background: rgb(53, 141, 241);
+        height: 80px;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .logo {
+        position: relative;
+        left: 8%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30pt;
+        padding: 5px;
+        font-weight: bolder;
+        text-align: center;
+        float: left;
+    }
+
+    .logo b {
+        color: white;
+    }
+
+    /* Estilo do Menu */
+
+
+        .menu {
+            position: absolute;
+            right: 8%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 15pt;
+            padding: 5px;
+            margin-right: 3px;
+            border-radius: 4px;
+        }
+
+        .menu a:hover {
+            background: white;
+            color:  rgb(53, 141, 241);
+            font-size: 15pt;
+            transition: 0.3s;
+        }
+
+#corpo-direita {
+    margin-top: 100px;
+    float: left;
+    margin-left: 8%;
+    width: 60%;
+}
+
+.corpo-principal {
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0 0 10px  rgb(197, 197, 197);
+    padding: 20px;
+}
+
+.imagens-corpo-principal {
+    width: 100%;
+    margin-bottom: -2px;
+}
+
+
+#corpo-esquerda {
+    float: right;
+    margin-top: 100px;
+    margin-right: 8%;
+    width: 22%;
+}
+
+.corpo-secundario {
+    background: white;
+    box-shadow: 0 0 10px rgb(197, 197, 197);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.corpo-secundario li {
+    margin-top: -0px;
+}
+
+
+.footer {
+    clear: both;
+}
+
+.footer p {
+    background: gray;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px  rgb(116, 116, 116);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10px;
+}
